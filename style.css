@@ -276,6 +276,8 @@ p {
     padding: 60px 130px;
     gap: 70px;
     margin-top: 20px;
+    background-color: white;
+    border-radius: 16px;
 }
 
 #projetos .titulo-projetos {
@@ -306,15 +308,65 @@ p {
     font-size: 40px;
 }
 
-#projetos .card-projetos {
+#projetos .card-projeto {
     background-color: white;
-    border-radius: 16px;
+    border-radius: 14px;
     overflow: hidden;
-    width: 100%;
+    flex: 1;
+    min-width: 0;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-#projetos .card-projetos img {
-    width: 28%;
+#projetos .card-projeto img {
+    width: 100%;
     height: 160px;
     object-fit: cover;
+}
+
+#projetos .card-projeto h3 {
+    color: #0b133b;
+    font-size: 22px;
+    margin:  15px 15px 8px;
+}
+
+#projetos .card-projeto p {
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0 15px 15px;
+}
+
+#projetos .lista-projetos {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+#projetos .tecnologias {
+    display: flex;
+    gap: 8px;
+    margin: 0 15px 15px;
+}
+
+#projetos .tecnologias span {
+    background-color: #ede9fe;
+    color:#5b21b6;
+    padding:  6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+#projetos .card-projeto a {
+    display: inline-block;
+    margin: 0 15px 18px;
+    color: #7c3aed;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#projetos .card-projeto a:hover {
+    color: #5b21b6;
+    font-size: 16px;
 }
