@@ -370,3 +370,70 @@ p {
     color: #5b21b6;
     font-size: 16px;
 }
+
+#contato {
+    display: flex;
+    align-items: flex-start;
+    padding: 60px 130px;
+    gap: 100px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+#contato .titulo-contato {
+    width: 40%;
+}
+
+#contato .titulo-contato h2 {
+    color: #0b133b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#contato .chamada-contato {
+    color: #0b133b;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+#contato .chamada-contato span {
+    color: #7C3AED;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#contato .descricao-contato {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+#contato .lista-contatos {
+    width: 60%;
+    display: flex;
+    gap: 20px;
+}
+
+#contato .card-contato {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#contato .card-contato strong {
+    color: #0b133b;
+    font-size: 16px;
+}
+
+#contato .card-contato p {
+    color: #6b7280;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
